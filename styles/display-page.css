@@ -1,0 +1,56 @@
+main {
+	/* CSS for main tag here */
+	padding: 60px;
+	font-size: 0;
+}
+
+.container {
+	/* CSS common to all blocks here */
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+
+}
+
+.blocks_level1 {
+	/* CSS common to all level 1 blocks here */
+	width: 48%;
+	height: 200px;
+	display: inline-block;
+	border: 1px solid black;
+	font-size: 0;
+}
+
+.blocks_level2 {
+	/* CSS common to all level 2 blocks here */
+	width: 31.9%;
+	height: 300px;
+	display: inline-block;
+	border: 1px solid black;
+	font-size: 0;
+}
+
+.green {
+	/* CSS for block with green class here here */
+	background-color: green;
+}
+
+.blue {
+	/* CSS for block with blue class here here */
+	background-color: blue;
+}
+
+.black {
+	/* CSS for block with black class here here */
+	background-color: black;
+}
+
+.grey {
+	/* CSS for block with grey class here here */
+	background-color: grey;
+}
+
+.orange {
+	/* CSS for block with orange class here here */
+	background-color: orange;
+}
