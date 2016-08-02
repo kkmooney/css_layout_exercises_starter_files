@@ -1,1 +1,85 @@
+body {
+	/* this code is taken from the example provided in the full screen background tutorial, save the relative image path */
+	background: url("../images/outerspace_landscape.jpeg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/outerspace_landscape.jpeg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/outerspace_landscape.jpeg', sizingMethod='scale')";
+}
 
+.navbar {
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+nav {
+	position: fixed;
+	height: 60px;
+	width: 100%;
+	background-color: grey;
+}
+
+nav img {
+	/* Am I supposed to somehow make this image smaller and put it in a circle with a black border? */
+	height: 50px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 50%;
+	border: 1px solid black;
+	vertical-align: middle;
+}
+
+nav ul {
+	display: inline-block;
+	list-style: none;
+	vertical-align: middle;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav li::after {
+	content:" | ";
+	margin-left: 5px;
+}
+
+main {
+	padding-top: 90px;
+}
+
+.dots {
+	margin-top: 150px;
+	position: relative;
+	width: 600px;
+	height: 300px;
+	border: 10px green dotted;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cat {
+	/* need to position the cat image against the upper left corner of the dotted square */
+	position: absolute;
+	left: margin-top
+	bottom; 300px;
+	border-color: blue;
+	height: 200px;
+	width: 200px;
+	bottom: 200px;
+	left: -100px
+}
+
+.dog {
+	/* need to position the dog image against the lower right corner of the dotted square */
+	position: absolute; 
+	left: 
+	bottom;
+	border-color: blue;
+	height: 200px;
+	width: 200px;
+	right: -100px;
+	top:150px;
+}
